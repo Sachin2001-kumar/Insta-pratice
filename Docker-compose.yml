@@ -4,11 +4,11 @@ services:
     image: postgres
     restart: always
     environment:
-      POSTGRES_USER: neondb_owner
-      POSTGRES_PASSWORD: npg_w8WO0fnTjZKR
-      POSTGRES_DB: neondb
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
+      POSTGRES_DB: 
     volumes:
-      - pgdata:/var/lib/postgresql/data
+      - pgdata:
     ports:
       - "5432:5432"
 
@@ -17,7 +17,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: postgres://neondb_owner:npg_w8WO0fnTjZKR@ep-twilight-smoke-ab9enbth-pooler.eu-west-2.aws.neon.tech/neondb?sslmode=require
+      DATABASE_URL:
     depends_on:
       - db
 

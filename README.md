@@ -1,17 +1,3 @@
 # Insta-pratice
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is my Insta project just for pratice. I want to just pratice to how to build images in docker. I write a simple code for the just pratice 
